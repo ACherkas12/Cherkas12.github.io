@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Raleway:wght@800&display=swap');
+
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: 'Brygada 1918', serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    background: #ebe1e9;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    background: #fcfca1;
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+ 
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    margin: 0;
+    background: #fcfca1;
+    color: #333334;
+    padding: 20px 30px;
+    position: relative;
+    border-left: 35px solid #e8ebaa;
+    font-family: 'Brygada 1918', serif;
+    }
+    blockquote:before {
+    content: "\201C";
+    font-family: 'Brygada 1918', serif;
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    color: #6c047a;
+    font-size: 50px;
+    text-shadow: 1px 2px 0 rgb(156, 117, 143);
+    }
+    blockquote p {
+    margin: 0 0 16px;
+    font-size: 20px;
+    letter-spacing: .05em;
+    line-height: 1.4;
+    }
+    blockquote cite {
+    font-style: normal;
+    font-weight: 300;
+    }
